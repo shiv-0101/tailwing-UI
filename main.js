@@ -5,6 +5,7 @@ const openBtn = document.getElementById('openbtn')
 
 closeBtn.addEventListener('click', () => {
     mobMenu.style.display = 'none'
+    mobMenu.style.opacity = '100'
     displayOk.style.display= 'none'
 })
 
